@@ -1,0 +1,125 @@
+/* Set base font size to 14px */
+html {
+    font-size: 14px;
+}
+
+/* Increase font size to 16px for screens wider than 768px */
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+/* Set base styles for HTML */
+html {
+    position: relative;
+    min-height: 100%;
+    font-family: "Inter"; /* Use Inter font family */
+}
+
+/* Apply Inter font to all elements except specific ones */
+*:not(.fa-solid):not(.fa):not(.e-icons) {
+    font-family: "Inter"
+}
+
+/* Body styles */
+body {
+    margin-bottom: 60px; /* Add bottom margin */
+    background-color: #12161d; /* Dark background color */
+    color: #fff; /* Text color */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+/* Increase font size */
+.e-bigger {
+    font-size: x-large;
+}
+
+/* Main content container */
+.main-content {
+    margin-left: 290px; /* Push content to the right */
+    overflow-y: auto; /* Enable vertical scrolling */
+    height: 92vh; /* 92% of the viewport height */
+}
+
+/* Styles for breadcrumb links */
+.e-breadcrumb a, .e-breadcrumb a:hover {
+    text-decoration: none !important;
+    color: inherit !important; /* Inherit text color */
+}
+
+/* Button styles */
+.btn:focus, .btn:active {
+    outline: none !important;
+    box-shadow: none; /* Remove button focus outline and shadow */
+}
+
+/* Hyperlink styles */
+.no-a-decoration, .no-a-decoration:hover {
+    text-decoration: none;
+    color: inherit; /* Inherit text color */
+}
+
+/* Styles for Syncfusion Grid */
+.e-grid {
+    border: 0;
+    border-radius: 5px; /* Apply border radius */
+}
+
+/* Menu styles */
+#menu {
+    width: 100% !important;
+    background-color: inherit; /* Inherit background color */
+    overflow: hidden;
+}
+
+/* Navbar styles */
+nav.navbar {
+    background-color: rgba(18, 22, 29); /* Navbar background color */
+}
+
+/* Profile picture styles */
+img.profile-pic {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%; /* Apply border radius for circular shape */
+}
+
+/* Profile wrapper styles */
+.profile-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(72, 84, 95, 0.12); /* Background color with opacity */
+    padding: 16px 20px;
+    border-radius: 12px; /* Apply border radius */
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+/* Radio button group styles */
+.e-btn-group.custom-rbt-group {
+    width: 100%;
+}
+
+/* Sidebar styles */
+#sidebar {
+    background-color: #12161d; /* Sidebar background color */
+    border-right: 1px dashed rgba(75,82,85,0.24); /* Sidebar border */
+    padding: 10px 20px;
+    overflow: hidden;
+}
+
+/* Sidebar toggler styles */
+#sidebar-toggler {
+    padding: 10px;
+    border-radius: 50%; /* Apply border radius for circular shape */
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* Widget styles */
+.widget {
+    border-radius: 1rem; /* Apply border radius */
+    background-color: #1a222b; /* Widget background color */
+}
