@@ -37,7 +37,7 @@ Some features to implement:
 1. User login and Authentication
 2. Setting Options
 3. Report generation
-4. 
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
